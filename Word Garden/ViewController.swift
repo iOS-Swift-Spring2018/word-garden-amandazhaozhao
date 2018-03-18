@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         for letter in wordToGuess {
             if lettersGuessed.contains(letter) {
-                revealedWord = revealedWord + "\(letter)"
+                revealedWord = revealedWord + " \(letter)"
             } else {
                 revealedWord += " _"
             }
